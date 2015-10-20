@@ -26,6 +26,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Home page and index url
 app.use('/', routes);
+app.use('/about', routes); // About page
+app.use('/services', routes); // Services page
+app.use('/contact', routes); // Contact page
 
 
 // catch 404 and forward to error handler
