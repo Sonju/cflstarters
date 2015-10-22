@@ -1,36 +1,68 @@
-<% head %>
+<% include head %>
+
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container">
+        <img src="" alt="" />
+      <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav">
+                  <li class="active">
+                    <a href="/">Home</a>
+                  </li>
+                  <li>
+                    <a href="#about">About</a>
+                  </li>
+                  <li>
+                    <a href="#services">Services</a>
+                  </li>
+                  <li>
+                    <a href="#contact">Contact</a>
+                  </li>
+                </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- <h1><%= title %></h1> -->
+
+    <H3>Welcome to <%= title %></H3>
 
 
-    <h1><%= title %></h1>
+<!-- Home Page -->
+       <div class="container-fluid">
+         <div class="row">
+           <div class="">   <!-- mobile, tablet, desktop responsive classes-->
 
-    <p>Welcome to <%= title %></p>
+            <section id="home">
+              <p>
+                This is my Home page example.
+              </p>
+            </section>
 
+           </div>
+        </div>
+      </div>
 
-    <nav>
-      <li>
-        <a href="/">Home</a>
-      </li>
-      <li>
-        <a href="#about">About</a>
-      </li>
-      <li>
-        <a href="#">Services</a>
-      </li>
-      <li>
-        <a href="#">Contact</a>
-      </li>
-    <nav>
+<!-- About Page -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="">  <!-- mobile, tablet, desktop responsive classes-->
 
- <div class="container-fluid">
-   <div class="row">
-     <div class="">
+           <section id="about">
+             <p>
+               This is my About page example.
+             </p>
+           </section>
 
-      <section id="home">
+          </div>
+       </div>
+      </div>
 
-      </section>
-
-     </div>
-  </div>
-</div>
-
-<% footer %>
+<% include footer %>
