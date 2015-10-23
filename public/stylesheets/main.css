@@ -15,4 +15,10 @@ body {
   display: block;
   margin: 0px auto; }
 
+footer {
+  position: fixed !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  margin-left: 43%; }
+
 /*# sourceMappingURL=main.css.map */
