@@ -30,7 +30,7 @@
       </div>
     </nav>
 
-    <H3><%= title %></H3>
+    <!-- <H3 class="text-center"><%= title %></H3> -->
 
 <!-- Home Page -->
   <section id="home">
@@ -38,42 +38,57 @@
        <div class="container-fluid">
          <div class="row">
             <div class="">   <!-- mobile, tablet, desktop responsive classes-->
+                <div class="col-md-7">
+                    <h1 id="home-title">QUALITY, SERVICE AND COMMITMENT SINCE 2005</h1>
+                    <p id="home-text" class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
+                  </div>
 
-        <h1 id="home-title">QUALITY, SERVICE AND COMMITMENT SINCE 2005</h1>
-        <p id="home-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc.</p>
-
-        <span>
-          <i class="fa fa-wrench fa-5x"></i>
-        </span>
+                    <div class="col-md-5">
+                      <span><i class="fa fa-wrench fa-5x" class="about-wrench"></i></span>
+                    </div>
               </div>
            </div>
         </div>
       </div>
   </section>
+
 <!-- Services page -->
+
+<section id="services">
       <div class="container-fluid">
         <div class="row">
           <div class="">  <!-- mobile, tablet, desktop responsive classes-->
 
-           <section id="services">
-             <h3 id="services-title">OUR SERVICES</h3>
-             <p>
-               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
-             </p>
-
-             <div class="col-md-4">
-               <i class="fa fa-bolt fa-5x"></i>
-             </div>
-             <div class="col-md-4">
-
-             </div>
-             <div class="col-md-4">
-
-             </div>
-           </section>
-
+           <div class="col-md-12">
+              <h3 id="services-title" class="text-center">OUR SERVICES</h3>
+                   <p class="text-center">
+                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+                   </p>
           </div>
-       </div>
+             <div class="col-md-4">
+               <p class="text-center"><i class="fa fa-bolt fa-5x"></i></p>
+                  <p class="text-center"><b>ALTERNATORS</b></p>
+               <p class="text-center">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+               </p>
+             </div>
+             <div class="col-md-4">
+               <p class="text-center"><i class="fa fa-key fa-5x"></i></p>
+                  <p class="text-center"><b>STARTERS</b></p>
+               <p class="text-center">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+               </p>
+             </div>
+             <div class="col-md-4">
+               <p class="text-center"><i class="fa fa-battery-empty fa-5x"></i></p>
+                  <p class="text-center"><b>BATTERIES</b></p>
+               <p class="text-center">
+                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
+               </p>
+             </div>
+          </div>
+        </div>
       </div>
+</section>
 
 <% include footer %>
