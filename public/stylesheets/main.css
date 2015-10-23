@@ -15,6 +15,9 @@ body {
   display: block;
   margin: 0px auto; }
 
+#services-text {
+  margin-bottom: 5%; }
+
 footer {
   position: fixed !important;
   bottom: 0 !important;
