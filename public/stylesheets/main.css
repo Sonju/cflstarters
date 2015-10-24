@@ -18,6 +18,18 @@ body {
 #services-text {
   margin-bottom: 5%; }
 
+.services-text {
+  margin-top: 6%; }
+
+#contact-num {
+  color: #ff5000; }
+
+.contact-hours {
+  color: #ff5000; }
+
+#contact-foot-margin {
+  margin-bottom: 7%; }
+
 footer {
   position: fixed !important;
   bottom: 0 !important;
