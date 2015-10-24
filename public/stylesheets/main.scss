@@ -27,6 +27,7 @@ body {
 
 .services-text {
   margin-top: 6%;
+  margin-bottom: 7%;
 }
 
 #contact-num {
@@ -38,7 +39,7 @@ body {
 }
 
 #contact-foot-margin {
-  margin-bottom: 7%;
+  margin-bottom: 5%;
 }
 
 footer {
@@ -51,3 +52,24 @@ footer {
  //   left: 0!important;
  //   margin-left: 43%;
  // }
+
+
+
+
+ // *  MAPs //
+
+ #cflnorthside {
+     height:250px;
+     width:300px;
+ }
+ .gm-style-iw * {
+     display: block;
+     width: 100%;
+ }
+ .gm-style-iw h4, .gm-style-iw p {
+     margin: 0;
+     padding: 0;
+ }
+ .gm-style-iw a {
+     color: #4272db;
+ }
