@@ -32,17 +32,23 @@ body {
 .contact-hours {
   color: #ff5000; }
 
+#contact-hours {
+  margin-top: 2%; }
+
 #contact-foot-margin {
   margin-bottom: 5%; }
 
 footer {
-  font-size: .5 rem !important; }
+  font-size: 1rem !important;
+  margin: 2% -5% auto auto; }
 
 #cflmap {
   height: 350px;
   width: 400px;
   margin: auto;
-  padding: 5px; }
+  padding: 5px;
+  margin-top: 1%;
+  margin-bottom: 2%; }
 
 .gm-style-iw * {
   display: block;
