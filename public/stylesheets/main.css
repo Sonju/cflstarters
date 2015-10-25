@@ -1,3 +1,7 @@
+.center {
+  margin: auto;
+  padding: 5px; }
+
 body {
   font-family: 'Droid Sans', sans-serif !important; }
 
@@ -34,9 +38,11 @@ body {
 footer {
   font-size: .5 rem !important; }
 
-#cflnorthside {
-  height: 250px;
-  width: 300px; }
+#cflmap {
+  height: 350px;
+  width: 400px;
+  margin: auto;
+  padding: 5px; }
 
 .gm-style-iw * {
   display: block;

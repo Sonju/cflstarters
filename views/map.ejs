@@ -5,17 +5,14 @@
     var map;
     function init() {
         var mapOptions = {
-            center: new google.maps.LatLng(41.915378,-87.750348),
-            zoom: 16,
+            center: new google.maps.LatLng(41.883162,-87.712797),
+            zoom: 12,
             zoomControl: true,
             zoomControlOptions: {
                 style: google.maps.ZoomControlStyle.DEFAULT,
             },
             disableDoubleClickZoom: true,
-            mapTypeControl: true,
-            mapTypeControlOptions: {
-                style: google.maps.MapTypeControlStyle.HORIZONTAL_BAR,
-            },
+            mapTypeControl: false,
             scaleControl: true,
             scrollwheel: true,
             panControl: true,
@@ -131,10 +128,10 @@
 	}
 ],
         }
-        var mapElement = document.getElementById('cflnorthside');
+        var mapElement = document.getElementById('cflmap');
         var map = new google.maps.Map(mapElement, mapOptions);
         var locations = [
-['CFL Starters & Alternators, Northside', 'Rebuilt and new starters, alternators and batteries for commercial and personal vehicles.', '(773) 968-7978', 'undefined', 'cflstarterschicago.com', 41.915374, -87.750617, 'https://mapbuildr.com/assets/img/markers/default.png']
+['CFL Starters & Alternators, Northside', 'Rebuilt and new starters, alternators and batteries for commercial and personal vehicles.', '(773) 968-7978', 'undefined', 'cflstarterschicago.com', 41.915374, -87.750617, 'https://mapbuildr.com/assets/img/markers/default.png'],['CFL Starters & Alternators, Southside', 'Rebuilt and new starters, alternators and batteries for commercial and personal vehicles.', '(773) 221-0100', 'undefined', 'undefined', 41.851589, -87.700179, 'https://mapbuildr.com/assets/img/markers/solid-pin-red.png']
         ];
         for (i = 0; i < locations.length; i++) {
 			if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
@@ -183,9 +180,9 @@ link = '';            bindInfoWindow(marker, map, locations[i][0], description, 
 }
 </script>
 <style>
-    #cflnorthside {
-        height:250px;
-        width:300px;
+    #cflmap {
+        height:400px;
+        width:450px;
     }
     .gm-style-iw * {
         display: block;
@@ -200,4 +197,4 @@ link = '';            bindInfoWindow(marker, map, locations[i][0], description, 
     }
 </style>
 
-<div id='cflnorthside'></div>
+<div id='cflmap'></div>
