@@ -131,7 +131,7 @@ function init() {
     var mapElement = document.getElementById('cflmap');
     var map = new google.maps.Map(mapElement, mapOptions);
     var locations = [
-['CFL Starters & Alternators, Northside', 'Rebuilt and new starters, alternators and batteries for commercial and personal vehicles.', '(773) 968-7978', 'undefined', 'cflstarterschicago.com', 41.915374, -87.750617, 'https://mapbuildr.com/assets/img/markers/default.png'],['CFL Starters & Alternators, Southside', 'Rebuilt and new starters, alternators and batteries for commercial and personal vehicles.', '(773) 221-0100', 'undefined', 'undefined', 41.851589, -87.700179, 'https://mapbuildr.com/assets/img/markers/solid-pin-red.png']
+['CFL Starters & Alternators, Northside', '4929 West Grand Avenue, Chicago, IL  60639', '(773) 968-7978', 'undefined', 'cflstarterschicago.com', 41.915374, -87.750617, 'https://mapbuildr.com/assets/img/markers/default.png'],['CFL Starters & Alternators, Southside', '2917 W. Cermak Road, Chicago, IL  60623', '(773) 221-0100', 'undefined', 'undefined', 41.851589, -87.700179, 'https://mapbuildr.com/assets/img/markers/solid-pin-red.png']
     ];
     for (i = 0; i < locations.length; i++) {
   if (locations[i][1] =='undefined'){ description ='';} else { description = locations[i][1];}
