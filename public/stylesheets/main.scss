@@ -26,18 +26,25 @@ body {
  }
 
 // services page
-#services-text {
-  margin-bottom: 5%;
-}
 
 .services-text {
   margin-top: 6%;
   margin-bottom: 7%;
 }
 
+#brand-title {
+  margin: 0px auto;
+  padding: 5px;
+}
+
+.brand-list {
+  text-decoration: none;
+}
+
+
 // contact page
 #payments {
- color: $orange;
+
 }
 
 .contact-sub-title {
